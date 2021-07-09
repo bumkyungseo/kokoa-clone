@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Home-my first website</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://d3j2s6hdd6a7rg.cloudfront.net/v2/JE-649/lfc/images/favicon.png" type="image/png">
+    <style>
+      span {
+        background-color: yellow;
+        margin: 10px;
+        border: solid 1px black;
+        border-radius: 5px;
+      }
+      .menu{
+        background-color: red;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      input[type="submit"]{
+        border: 2px solid orange;
+        border-radius: 5px;
+        ;
+      }
+      form{
+        display: flex;
+        justify-content: flex-end;
+        
+      }
+      h1 {
+        text-align: center;
+      }
+
+      input.focused{
+        border-color: orchid;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>LfC website</h1>
+      
+    </header>
+    <main>
+      <div class="menu">
+        <span>News</span>
+        <span>Members</span>
+        <span>History</span>
+        <span>Tickets</span>
+        <span>Shop</span>
+      </div>
+      <div>
+        <form id="login" >
+          <input type="text" placeholder="username">
+          <input type="password" placeholder="password">
+          <input type="submit" value="login">
+        </form>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
