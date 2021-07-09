@@ -1,5 +1,5 @@
 .alt-header {
-  padding: 35px var(--horizontal-space);
+  padding: 30px var(--horizontal-space);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@
 }
 
 .alt-header__column:first-child {
-  margin-right: auto;
+  margin-left: -15px;
 }
 
 .alt-header__column:nth-child(2) {

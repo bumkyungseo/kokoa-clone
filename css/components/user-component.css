@@ -29,6 +29,7 @@
   height: 80px;
   border-radius: 35px;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 .user-component__avatar--sm {
